@@ -1,9 +1,6 @@
 {
   "name": "storeyblog",
   "version": "1.0.0",
-  "engines": {
-    "node": "14.15.5"
-  },
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -26,6 +23,10 @@
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0"
   },
+   "engines": {
+    "node": "14.15.5"
+  },
+  
   "devDependencies": {
     "cross-env": "^7.0.3",
     "handlebars": "^4.5.0",
