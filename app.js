@@ -68,17 +68,13 @@ app.set("view engine", ".hbs");
 
 // var store = new MongoStore({mongooseConnection: mongoose.connection }) ;
 //SESSSION
-
-var mongourl =  'mongodb+srv://Naveen:1234@cluster1.75n9g.mongodb.net/STORY_BLOG?retryWrites=true&w=majority'
-
-
 app.use(
   session({
     secret: "story book",
     resave: false,
     saveUninitialized: false,
     store: MongoStore.create({
-      mongoUrl: mongourl,
+      mongoUrl: process.env.MONGO_URI,
     }),
   })
 );
