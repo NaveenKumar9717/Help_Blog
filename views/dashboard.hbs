@@ -1,0 +1,42 @@
+<h5>Dasboard</h5>
+<h3>Welcome <i style ="color: cornflowerblue;" class ="fas fa-user-shield"></i> <strong >{{name}}</strong></h3>
+
+<p><strong>Here are your Blogs</strong></p>
+{{!-- <img src="./google.png" alt="google">    --}}
+
+{{#if stories}}
+<table class="striped">
+    <thead>
+        <tr>
+            <th>Title</th>
+
+            <th>Date</th>
+            <th>Status</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each stories}}
+        <tr>
+            <td><strong><a href="/stories/{{_id}}">{{title}}</a></strong></td>
+            <td><strong>{{formatDate createdAt 'MMMM Do YYYY, h:mm:ss a'}}</strong></td>
+            <td><span class="dash-status"><strong>{{status}}</strong></span></td>
+            <td>
+                <a href="/stories/edit/{{_id}}" class="btn btn-float">
+                    <i class="fas fa-edit"></i>
+                </a>
+
+                <form action="/stories/{{_id}}" method="POST" id="delete-form">
+                    <input type="hidden" name="_method" value="DELETE">
+                    <button type="submit" class="btn red">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </form>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+{{else}}
+<p>You have not created any Blogs</p>
+{{/if}}

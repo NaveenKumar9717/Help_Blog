@@ -1,0 +1,98 @@
+<h1>Stories</h1>
+<div class="row">
+    {{#each stories}}
+       <div class="col s12 m4">
+           <div class="card">
+               <div class="card-image">
+
+               </div>
+               <div class="card-content center-align">
+                   <h5>{{title}}</h5>
+                   <p>{{body}}</p>
+                   <br>
+                   <div class="chip">
+                       <img src="{{user.image}}" alt="">
+                      <a href="/stories/user/{{user._id}}">{{user.displayName}}
+                      </a>
+                   </div>
+               </div>
+               <div class="card-action center-align">
+                   <a href="/stories/{{_id}}" class="btn grey">Read More</a>
+               </div>
+           </div>
+       </div>
+    {{else}}
+       <p>No Sotires to Display Here</p>
+    {{/else}}
+</div>
+
+
+<h1>Stories</h1>
+<div class="row">
+    {{#each stories}}
+    <div class="col s12 m4">
+        <div class="card">
+            <div class="card-image">
+                {{{editIcon user ../user _id}}}
+            </div>
+            <div class="card-content center-align">
+                <h5>{{title}}</h5>
+                <p>{{stripTags (truncate body 150)}}</p>
+                <br>
+                <div class="chip">
+                    <img src="{{user.image}}" alt="">
+                    <a href="/stories/user/{{user._id}}">{{user.displayName}}</a>
+                </div>
+            </div>
+            <div class="card-action center-align">
+                <a href="/stories/{{_id}}" class="btn grey">Read More</a>
+            </div>
+        </div>
+    </div>
+    {{else}}
+    <p>No stories to display</p>
+    {{/each}}
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {{#each stories}}
+        <tr>
+            <td><a href="/stories/{{_id}}">{{title}}</a></td>
+            <td>{{formatDate createdAt 'MMMM Do YYYY, h:mm:ss a'}}</td>
+            <td><span class="dash-status">{{status}}</span></td>
+            <td>
+                <a href="/stories/edit/{{_id}}" class="btn btn-float">
+                    <i class="fas fa-edit"></i>
+                </a>
+
+                <form action="/stories/{{_id}}" method="POST" id="delete-form">
+                    <input type="hidden" name="_method" value="DELETE">
+                    <button type="submit" class="btn red">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </form>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+{{else}}
+<p>You have not created any stories</p>
+{{/if}}
