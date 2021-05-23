@@ -90,9 +90,13 @@ app.use(function (req, res, next) {
   next();
 });
 
+app.get("/ping",(req, res) =>{
+    res.send("App is Live bro")
+})
 app.use("/", require("./routes/index.js"));
 app.use("/auth", require("./routes/auth"));
 app.use("/stories", require("./routes/stories"));
+
 
 //defining staticfolder
 app.use(express.static(path.join(__dirname, "public")));
