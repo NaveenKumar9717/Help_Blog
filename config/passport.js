@@ -8,7 +8,7 @@ module.exports = function(passport){
         callbackURL : '/auth/google/callback'
     },
     async (accesToken, refreshToken,  profile, done) =>{
-        console.log(profile)
+        
         const newUser = {
             googleId : profile.id,
             displayName : profile.displayName,
