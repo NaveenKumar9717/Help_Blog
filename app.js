@@ -9,6 +9,7 @@ const passport = require("passport");
 const session = require("express-session");
 var MongoStore = require("connect-mongo");
 const connectDB = require("./config/db");
+const cookieParser = require("cookie-parser");
 
 //Loading all config file
 dotenv.config({ path: "./config/config.env" });
@@ -68,6 +69,7 @@ app.set("view engine", ".hbs");
 
 // var store = new MongoStore({mongooseConnection: mongoose.connection }) ;
 //SESSSION
+app.set('trust proxy', 1) 
 app.use(
   session({
     secret: "story book",
@@ -76,7 +78,8 @@ app.use(
     store: MongoStore.create({
       mongoUrl: process.env.MONGO_URI,
     }),
-   
+    cookie: { secure: true },
+    
   })
 );
 
