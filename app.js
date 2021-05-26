@@ -69,16 +69,20 @@ app.set("view engine", ".hbs");
 
 // var store = new MongoStore({mongooseConnection: mongoose.connection }) ;
 //SESSSION
-app.set('trust proxy', 1) 
+app.set('trust proxy',1);
+
 app.use(
   session({
     secret: "story book",
-    resave: false,
-    saveUninitialized: false,
+    resave: true,
+    saveUninitialized: true,
     store: MongoStore.create({
       mongoUrl: process.env.MONGO_URI,
-    })
-   
+    }),
+    cookie :{
+      secure : true,
+      maxAge: 1000 * 60 *60 *24 * 7
+    }
     
   })
 );
