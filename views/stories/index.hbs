@@ -1,4 +1,54 @@
-<h1>Blogs</h1>
+<div class="corona-container">
+    
+     <div class="corona-update" style="color: #EC6353;">
+        <h5>
+           Confirmed 
+        </h5>
+       <h5 class="daily-update" id="demo" style ="opacity: 0.6;">
+            2,11,5
+        </h5 class="daily-update">
+
+        <h3 class="total counter "  id ="total-confirmed">
+            
+        </h3>
+
+        <img src="css/images/corona-positive.png" alt="postive-trend">
+    </div>
+    
+    <div class="corona-update" style="color: #28a744;">
+        <h5>
+           Recevered 
+        </h5>
+        
+        <h5 class="daily-update" id="daily-recovered" style ="opacity: 0.6;">
+            2,11,5
+        </h5 class="daily-update">
+        <h3 class="total counter" id ="total-recovered">
+            
+        </h3 >
+            <img src="css/images/corona-recovered.png" alt="postive-trend">
+    </div>
+    <div class="corona-update" style ="color: #85878A;">
+        <h5>
+           Deceased 
+        </h5>
+        
+        <h5 class="daily-update" id="daily-deceased" style ="opacity: 0.6;">
+            +2,11,5
+        </h5 class="daily-update">
+        <h3 class="total counter" id ="total-deceased">
+        
+        </h3 >
+        <img src="css/images/corona-deceased.png" alt="postive-trend">
+    </div>
+     <div class="heading">
+         <h5 style="color: #737c83;">
+            Covid19-Update
+         </h5>
+         <p>Powered By <a href="https://www.covid19india.org/">covid19india.org</a></p>
+     </div>
+</div>
+<h2 style="color:#339af0;">Blogs</h2>
 
 <div class="row">
     {{#each stories}}
@@ -7,9 +57,9 @@
             <div class="card-image">
                {{{editIcon user ../user _id}}}
             </div>
-            <div class="card-content center-align">
-                <h5 class="head-text"><strong>{{title}}</strong></h5>
-                <p class="byme">{{stripTags (truncate body 120)}}</p>
+            <div class="card-content cardbyme center-align">
+                <h5 class="head-text"><strong>{{ stripTags (truncate title 23)}}</strong></h5>
+                <p class="byme">{{stripTags (truncate body 80)}}</p>
                 <br>
                 <div class="chip">
                     <img src="{{user.image}}" alt="">
