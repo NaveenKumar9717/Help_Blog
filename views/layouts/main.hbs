@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
         integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
     <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
     <link rel="stylesheet" href="/css/style.css">
     
@@ -31,12 +33,55 @@
     
     <script>
 
-         M.Sidenav.init(document.querySelector('.sidenav'))
+        M.Sidenav.init(document.querySelector('.sidenav'))
         M.FormSelect.init(document.querySelector('#status'))
         CKEDITOR.replace('body', {
             plugins: 'wysiwygarea, toolbar, basicstyles, link'
         }) ;
+        var p =  fetch('https://api.covid19india.org/data.json') ;
+        console.log(p)
+        p.then(res => res.json())
+            .then(data => {
+        var pos = data['cases_time_series'].length;
+        var posi = data['cases_time_series'][pos-1]['dailyconfirmed']
+        var totalpos = data['cases_time_series'][pos-1]['totalconfirmed']
+        var dailydec = data['cases_time_series'][pos-1]['dailydeceased']  
+        var totaldec = data['cases_time_series'][pos-1]['totaldeceased']
+        var dailyrec = data['cases_time_series'][pos-1]['dailyrecovered']
+        var totalrec = data['cases_time_series'][pos-1]['totalrecovered']
+        console.log(totalrec)
+        document.getElementById("demo").innerHTML = '+' + posi;
+        document.getElementById("daily-recovered").innerHTML = '+' +  dailyrec;
+        document.getElementById("daily-deceased").innerHTML ='+' + dailydec;
+         
+         
+         
+         
+         document.getElementById("total-confirmed").innerHTML = totalpos;
+         document.getElementById("total-recovered").innerHTML = totalrec;
+         document.getElementById("total-deceased").innerHTML = totaldec;
+
+                                            
+      
+            
+            })
+              
     </script>
+
+    {{!-- Adding counUp style --}}
+      <script src="/jquery.counterup.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script>
+        setTimeout(()=>{
+             $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
+        }, 200)
+         
+       
+    </script>
+
 </body>
 
 </html>
