@@ -26,3 +26,56 @@ p {
 .head-text{
     font-family: 'Fjalla One', sans-serif;
 }
+
+.corona-container{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap ;
+    justify-content:space-evenly;
+    justify-items:center;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    /* border: solid cadetblue; */
+    padding: 0px ;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.heading{
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin: 0%;
+
+}
+.corona-update{
+    flex-basis: auto;
+    flex-shrink:initial;
+    /* display: flex; */
+    text-align: center;
+    /* flex-direction: column ; */
+    /* justify-content: center;
+    justify-items: center; */
+}
+
+.daily-update{
+ display: inline;
+ margin-top: 1%;
+}
+.total{
+    margin-top: 0%;
+
+}
+
+@media only screen and (min-width: 800px) {
+    .cardbyme {
+        
+      height: 220px;
+      
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width :780px) {
+    .cardbyme {
+      min-width: 200px;  
+      height: 250px;
+    }
+  }
