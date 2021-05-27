@@ -1,11 +1,14 @@
 <nav class="green accent-3">
+    
+    
     <div class="nav-wrapper container">
-        <a href="https://help-blog.herokuapp.com/stories" class="brand-logo center"><i class="fas fa-file-medical"> LifeBlogs</i> </a>
+        <a href="/stories" class="brand-logo center"><i class="fas fa-file-medical"> LifeBlogs</i> </a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger show-on-large"><i class="fas fa-bars"></i></a>
-        <ul id="nav-mobile" class="right">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="/dashboard"><i class="fas fa-boxes"> Dashboard</i></a></li>
+        {{!-- <li><p id="demo">Nk</p></li> --}}
         </ul>
-        <ul class="sidenav" id="mobile-demo">
+        <ul class = "sidenav" id="mobile-demo">
             <li><a href="/stories">Public Stories</a></li>
             <li><a href="/dashboard">Dashboard</a></li>
             <li><a href="/auth/logout">Logout</a></li>
