@@ -41,31 +41,6 @@ p {
     width: 100%;
 }
 
-.heading{
-    align-self: flex-end;
-    justify-self: flex-end;
-    margin: 0%;
-
-}
-.corona-update{
-    flex-basis: auto;
-    flex-shrink:initial;
-    /* display: flex; */
-    text-align: center;
-    /* flex-direction: column ; */
-    /* justify-content: center;
-    justify-items: center; */
-}
-
-.daily-update{
- display: inline;
- margin-top: 1%;
-}
-.total{
-    margin-top: 0%;
-
-}
-
 @media only screen and (min-width: 800px) {
     .cardbyme {
         
@@ -79,3 +54,37 @@ p {
       height: 250px;
     }
   }
+
+.corona-update{
+    flex-basis: auto;
+    flex-shrink:initial;
+    /* display: flex; */
+    text-align: center;
+    max-height: 270px;
+    max-width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    /* flex-direction: column ; */
+    /* justify-content: center;
+    justify-items: center; */
+}
+
+.daily-update{
+ display: inline;
+ margin-top: 1%;
+}
+.total{
+    margin-top: 0%;
+    font-size: 2rem;
+}
+
+.trend-image{
+    max-width: 200px ;
+    max-height: 100px ;
+}
+.heading{
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin: 0%;
+    
+
+}
