@@ -1,39 +1,38 @@
-# ncovid
+# Life-Blogs
 
-Corona news updates app ft live tracking, statistics and helplines built with flutter
+Website with Blogs that can save life of anyone during this tough situtation by sharing information about nearby beds availablity 
+<h3>You can save life of someone by giving message here of atatus near you</h3>
+Website contains Corona Update feature  giving latest inforamtion of daily information about corona news 
+<h1>Tech STACK USED : </h1> 
 
-[![Codemagic build status](https://api.codemagic.io/apps/5e9024970fc3d420b7d40597/5e9024970fc3d420b7d40596/status_badge.svg)](https://codemagic.io/apps/5e9024970fc3d420b7d40597/5e9024970fc3d420b7d40596/latest_build)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-success.svg?style=flat-square)](https://github.com/Mastersam07/ncovid/pulls)
-![GitHub contributors](https://img.shields.io/github/contributors/mastersam07/ncovid?color=success&style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/mastersam07/ncovid?style=flat-square)
-[![License](https://img.shields.io/badge/license-MIT-success.svg?style=flat-square)](https://github.com/Mastersam07/ncovid/blob/master/LICENSE)
+<img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"/>      <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">  <img alt="jQuery" src="https://img.shields.io/badge/jquery%20-%230769AD.svg?&style=for-the-badge&logo=jquery&logoColor=white"/>  <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white">   <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white">   <img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB">   <img src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"> <img alt="NodeJS" src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/> <img alt="Express.js" src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/>   <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/>  <img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>   <img src="http://img.shields.io/badge/-VS%20Code-000000?style=for-the-badge&logo=Visual-studio-code&logoColor=blue"> <img alt="Heroku" src="https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white"/>
 
+
+> This Web-app feeds off the covid19india api available at https://help-blog.herokuapp.com/stories
 >
-> This app feeds off the ncovid api available at https://covid9ja.herokuapp.com/
->
-> The api repo is available <a href="https://github.com/Mastersam07/ncovid-19-api"> here</a>
+> The WEB app repo is available <a href="https://github.com/NaveenKumar9717/Help_Blog"> here</a>
 >
 
-## App
-Download the `app-release.apk` to try out the release version
 <br>
-<a href="https://bit.ly/releasetojuwa"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
-<br>
+
+## visit Website
+* Login with Google(One click)
+* you will come on Dshboard(descring stories or blogs that you have created so far)
+* click on ![image](https://user-images.githubusercontent.com/52369168/120346658-34101500-c319-11eb-94a8-3e563f96c32a.png) to acces sotires 
+* on left corner burger menu you can acces you menus
+ 
 
 ## 💻 Requirements
 * Any Operating System (ie. MacOS X, Linux, Windows)
-* Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
-* A little knowledge of Dart and Flutter
+* Any  browser 🤓 
 * Hands to code 🤓
-* A brain to think 🤓
 
 ## ✨ Features
-- [x] Country Specific Cases(Nigeria as case study)
-- [x] Precautionary Measures
+- [x] Corona Update India
+- [x] Secure GOOGLE OATH2.0 LOGIN
 - [x] Covid-19 Latest News
-- [x] Statistics and trends
-- [x] Helpline
-- [x] Darkmode
+- [x] Blogs to help People
+- [x] Edit blog fucntion
 
 
 ## 📸 ScreenShots
@@ -65,19 +64,14 @@ Download the `app-release.apk` to try out the release version
 #### 2. Clone the repo
 
 ```sh
-$ git clone https://github.com/Mastersam07/ncovid.git
-$ cd ncovid/
+$ git clone https://github.com/NaveenKumar9717/Help_Blog
+$ cd help-blog/
 ```
 
-#### 3. Get your open news api key
+#### 3. isntall all neccessory npm packages
 
-#### 4. Create the file apiKey.dart in your lib folder and enter the code below:
- 
-```sh
-String apiKey = "Your_Api_Key";
-```
+#### 4. node app.js
 
-#### 5. Run _flutter pub get_
 
 ## What's Next?
  - [x] Statistics and trends
@@ -91,18 +85,8 @@ String apiKey = "Your_Api_Key";
 ## 🐛 Bugs/Request
 #### Encounter any problem(s)? feel free to open an issue. If you feel you could make something better, please raise a ticket on Github and I'll look into it. Pull request are also welcome.
 
-## ⭐️ License
-#### <a href="https://github.com/Mastersam07/ncovid/blob/master/LICENSE">MIT LICENSE</a>
 
-## 🤓 Developer(s)
-#### **Abada Samuel Oghenero**
-<a href="https://twitter.com/mastersam_"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
-<a href="https://linkedin.com/in/abada-samuel/"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
-<a href="https://medium.com/@sammytech"><img src="https://github.com/aritraroy/social-icons/blob/master/medium-icon.png?raw=true" width="60"></a>
-<a href="https://facebook.com/abada.samueloghenero"><img src="https://github.com/aritraroy/social-icons/blob/master/facebook-icon.png?raw=true" width="60"></a>
-
-## Donate
-
-> #### If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
->
-> #### - [Paystack NG](https://paystack.com/pay/mastersam)
+<hr>
+<p align="center">
+Developed with ❤️ by NaveenKumar9717 in India 🇮🇳 
+</p>
