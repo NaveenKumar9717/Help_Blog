@@ -37,11 +37,11 @@ Website contains Corona Update feature  giving latest inforamtion of daily infor
 
 ## 📸 ScreenShots
 
-<h3>Login With Google</h3> 
+* <h3>Login With Google</h3> 
 
-* h ![image](https://user-images.githubusercontent.com/52369168/120348038-6b32f600-c31a-11eb-93c8-ab9d250e8e68.png)
-
-<h3>Welcome To Dashboard</h3> ![image](https://user-images.githubusercontent.com/52369168/120348283-ac2b0a80-c31a-11eb-8d37-7dbf4102dd69.png)
+*  ![image](https://user-images.githubusercontent.com/52369168/120348038-6b32f600-c31a-11eb-93c8-ab9d250e8e68.png)
+*  <h3>Welcome To Dashboard</h3>
+*   ![image](https://user-images.githubusercontent.com/52369168/120348283-ac2b0a80-c31a-11eb-8d37-7dbf4102dd69.png)
 
 |<img src="ss/2.png" width="250">|<img src="ss/2a.png" width="250">|
 |<img src="ss/3.png" width="250">|<img src="ss/3a.png" width="250">|
