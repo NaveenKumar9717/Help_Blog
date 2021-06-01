@@ -48,17 +48,11 @@ Website contains Corona Update feature  giving latest inforamtion of daily infor
 *   ![image](https://user-images.githubusercontent.com/52369168/120350291-7b4bd500-c31c-11eb-9d9c-eceb57844f86.png)
 
 
-## 🔌 Plugins
-| Name | Usage |
-|------|-------|
-|[**Http**](https://pub.dev/packages/http)| Api Calls|
-|[**Cached Network Image**](https://pub.dev/packages/cached_network_image)| To display images from web|
-|[**Webview Flutter**](https://pub.dev/packages/webview_flutter)| Display news in webview|
 
 
 ## Getting started
 
-#### 1. [Setup Flutter](https://flutter.dev/docs/get-started/install)
+#### 1. [Setup VSCODE](https://vs.dev/docs/get-started/install)
 
 #### 2. Clone the repo
 
