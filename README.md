@@ -28,13 +28,13 @@ Try the website: [Live Save-Life-Blog-Website](https://help-blog.herokuapp.com/s
 1. Clone the repository
 
 ```bash
-git clone https://github.com/Jain-Sanchit/LiveCoronaNumbers.git
+https://github.com/NaveenKumar9717/Help_Blog
 ```
 
 2. Change the working directory
 
 ```bash
-cd LiveCoronaNumbers
+cd help_blog
 ```
 
 3. Install dependencies
@@ -57,10 +57,6 @@ http://localhost:3000/
 🌟 You are all set!
 
 
-## 🍰 Contributing
-
-Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/Jain-Sanchit/LiveCoronaNumbers/compare).
-
 
 ## 💻 Built with
 - **Nodejs** for server
@@ -69,6 +65,6 @@ Please contribute using [GitHub Flow](https://guides.github.com/introduction/flo
 
 <hr>
 <p align="center">
-Developed with ❤️ in India 🇮🇳 
+Developed with ❤️ NaveenKumar9717 in India 🇮🇳 
 </p>
 
