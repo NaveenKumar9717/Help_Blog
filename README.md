@@ -1,70 +1,108 @@
+# ncovid
 
- <h1 align="center">
-Live Save Life Website
-</h1>
+Corona news updates app ft live tracking, statistics and helplines built with flutter
+
+[![Codemagic build status](https://api.codemagic.io/apps/5e9024970fc3d420b7d40597/5e9024970fc3d420b7d40596/status_badge.svg)](https://codemagic.io/apps/5e9024970fc3d420b7d40597/5e9024970fc3d420b7d40596/latest_build)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-success.svg?style=flat-square)](https://github.com/Mastersam07/ncovid/pulls)
+![GitHub contributors](https://img.shields.io/github/contributors/mastersam07/ncovid?color=success&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/mastersam07/ncovid?style=flat-square)
+[![License](https://img.shields.io/badge/license-MIT-success.svg?style=flat-square)](https://github.com/Mastersam07/ncovid/blob/master/LICENSE)
+
+>
+> This app feeds off the ncovid api available at https://covid9ja.herokuapp.com/
+>
+> The api repo is available <a href="https://github.com/Mastersam07/ncovid-19-api"> here</a>
+>
+
+## App
+Download the `app-release.apk` to try out the release version
+<br>
+<a href="https://bit.ly/releasetojuwa"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+<br>
+
+## 💻 Requirements
+* Any Operating System (ie. MacOS X, Linux, Windows)
+* Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
+* A little knowledge of Dart and Flutter
+* Hands to code 🤓
+* A brain to think 🤓
+
+## ✨ Features
+- [x] Country Specific Cases(Nigeria as case study)
+- [x] Precautionary Measures
+- [x] Covid-19 Latest News
+- [x] Statistics and trends
+- [x] Helpline
+- [x] Darkmode
 
 
-Shows The live figures for corona in the whole world and country wise too.
-Shows the latest figures of USA state wise and INDIA state wise .
-
-## 🚀 Demo 
-Try the website: [Live Save-Life-Blog-Website](https://help-blog.herokuapp.com/stories)
-
-## 🧐 Features
-
-- **Global Data** 
-- **Data From Yesterday and Today**
-- **Recovery Status and Death figures**
-- **India State-wise Data**
-- **USA state-wise Data**
-- **Country wise Data of Today and Yesterday**
-- **Some general FAQ's and Safety Precautions**
+## 📸 ScreenShots
 
 
-## 🛠️ Installation Steps
+| Light| Dark|
+|------|-------|
+|<img src="ss/1.png" width="250">|<img src="ss/1a.png" width="250">|
+|<img src="ss/2.png" width="250">|<img src="ss/2a.png" width="250">|
+|<img src="ss/3.png" width="250">|<img src="ss/3a.png" width="250">|
+|<img src="ss/4.png" width="250">|<img src="ss/4a.png" width="250">|
+|<img src="ss/5.png" width="250">|<img src="ss/5a.png" width="250">|
+|<img src="ss/6.png" width="250">|<img src="ss/6a.png" width="250">|
 
-**First Star and Fork the repo** 
+## 🔌 Plugins
+| Name | Usage |
+|------|-------|
+|[**Http**](https://pub.dev/packages/http)| Api Calls|
+|[**Cached Network Image**](https://pub.dev/packages/cached_network_image)| To display images from web|
+|[**Webview Flutter**](https://pub.dev/packages/webview_flutter)| Display news in webview|
 
-1. Clone the repository
+## Dependencies
+* [Flutter](https://flutter.dev/)
 
-```bash
-https://github.com/NaveenKumar9717/Help_Blog
+## Getting started
+
+#### 1. [Setup Flutter](https://flutter.dev/docs/get-started/install)
+
+#### 2. Clone the repo
+
+```sh
+$ git clone https://github.com/Mastersam07/ncovid.git
+$ cd ncovid/
 ```
 
-2. Change the working directory
+#### 3. Get your open news api key
 
-```bash
-cd help_blog
+#### 4. Create the file apiKey.dart in your lib folder and enter the code below:
+ 
+```sh
+String apiKey = "Your_Api_Key";
 ```
 
-3. Install dependencies
+#### 5. Run _flutter pub get_
 
-```bash
-npm install
-```
+## What's Next?
+ - [x] Statistics and trends
+ - [x] Helpline
+ - [ ] Cache Api response
+ - [x] Darkmode
 
-4. Run the app
+## :heart: Found this project useful?
+#### If you found this project useful or you like what you see, then please consider giving it a :star: on Github and sharing it with your friends via social media.
 
-```bash
-node app.js
-```
-5. Check on localhost 
+## 🐛 Bugs/Request
+#### Encounter any problem(s)? feel free to open an issue. If you feel you could make something better, please raise a ticket on Github and I'll look into it. Pull request are also welcome.
 
-```bash
-http://localhost:3000/
-```
+## ⭐️ License
+#### <a href="https://github.com/Mastersam07/ncovid/blob/master/LICENSE">MIT LICENSE</a>
 
-🌟 You are all set!
+## 🤓 Developer(s)
+#### **Abada Samuel Oghenero**
+<a href="https://twitter.com/mastersam_"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
+<a href="https://linkedin.com/in/abada-samuel/"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
+<a href="https://medium.com/@sammytech"><img src="https://github.com/aritraroy/social-icons/blob/master/medium-icon.png?raw=true" width="60"></a>
+<a href="https://facebook.com/abada.samueloghenero"><img src="https://github.com/aritraroy/social-icons/blob/master/facebook-icon.png?raw=true" width="60"></a>
 
+## Donate
 
-
-## 💻 Built with
-- **Nodejs** for server
-- **Handlebars** for pages
-- Bases on **API** via Covid19india Api and novelcovid .
-
-<hr>
-<p align="center">
-Developed with ❤️ NaveenKumar9717 in India 🇮🇳 
-</p>
-
+> #### If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
+>
+> #### - [Paystack NG](https://paystack.com/pay/mastersam)
