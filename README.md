@@ -42,15 +42,11 @@ Website contains Corona Update feature  giving latest inforamtion of daily infor
 *  ![image](https://user-images.githubusercontent.com/52369168/120348038-6b32f600-c31a-11eb-93c8-ab9d250e8e68.png)
 *  <h3>Welcome To Dashboard</h3>
 *   ![image](https://user-images.githubusercontent.com/52369168/120348283-ac2b0a80-c31a-11eb-8d37-7dbf4102dd69.png)
-*   <h3>Corona-Update -Dashboard</h3> ![image](https://user-images.githubusercontent.com/52369168/120349810-0c6e7c00-c31c-11eb-81fe-3e6bb3e728af.png)
+*   <h3>Corona-Update-Dashboard</h3>
+*   ![image](https://user-images.githubusercontent.com/52369168/120349810-0c6e7c00-c31c-11eb-81fe-3e6bb3e728af.png)
+*   <h3>Blogs section</h3>
+*   ![image](https://user-images.githubusercontent.com/52369168/120350291-7b4bd500-c31c-11eb-9d9c-eceb57844f86.png)
 
-
-
-|<img src="ss/2.png" width="250">|<img src="ss/2a.png" width="250">|
-|<img src="ss/3.png" width="250">|<img src="ss/3a.png" width="250">|
-|<img src="ss/4.png" width="250">|<img src="ss/4a.png" width="250">|
-|<img src="ss/5.png" width="250">|<img src="ss/5a.png" width="250">|
-|<img src="ss/6.png" width="250">|<img src="ss/6a.png" width="250">|
 
 ## 🔌 Plugins
 | Name | Usage |
@@ -59,8 +55,6 @@ Website contains Corona Update feature  giving latest inforamtion of daily infor
 |[**Cached Network Image**](https://pub.dev/packages/cached_network_image)| To display images from web|
 |[**Webview Flutter**](https://pub.dev/packages/webview_flutter)| Display news in webview|
 
-## Dependencies
-* [Flutter](https://flutter.dev/)
 
 ## Getting started
 
@@ -77,12 +71,6 @@ $ cd help-blog/
 
 #### 4. node app.js
 
-
-## What's Next?
- - [x] Statistics and trends
- - [x] Helpline
- - [ ] Cache Api response
- - [x] Darkmode
 
 ## :heart: Found this project useful?
 #### If you found this project useful or you like what you see, then please consider giving it a :star: on Github and sharing it with your friends via social media.
