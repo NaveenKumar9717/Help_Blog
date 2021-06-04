@@ -1,7 +1,7 @@
 # Life-Blogs
 
 Website with Blogs that can save life of anyone during this tough situtation by sharing information about nearby beds availablity 
-<h3>You can save life of someone by giving message here of atatus near you</h3>
+<h3>You can save life of someone by giving message here status of nearest area about beds and oxygen anything</h3>
 Website contains Corona Update feature  giving latest inforamtion of daily information about corona news 
 <h1>Tech STACK USED : </h1> 
    
