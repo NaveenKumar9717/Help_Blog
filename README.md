@@ -18,7 +18,7 @@ Website contains Corona Update feature  giving latest inforamtion of daily infor
 ## visit Website
 * Login with Google(One click)
 * you will come on Dshboard(descring stories or blogs that you have created so far)
-* click on ![image](https://user-images.githubusercontent.com/52369168/120347489-f3fd6200-c319-11eb-9605-5273486ed992.png) to acces sotires 
+* click on ![image](https://user-images.githubusercontent.com/52369168/120935487-ae2d0900-c720-11eb-9890-2a9994db4e75.png) to acces sotires 
 * on left corner burger menu you can acces you menus   
  
 
@@ -41,7 +41,8 @@ Website contains Corona Update feature  giving latest inforamtion of daily infor
 
 *  ![image](https://user-images.githubusercontent.com/52369168/120348038-6b32f600-c31a-11eb-93c8-ab9d250e8e68.png)
 *  <h3>Welcome To Dashboard</h3>
-*   ![image](https://user-images.githubusercontent.com/52369168/120348283-ac2b0a80-c31a-11eb-8d37-7dbf4102dd69.png)
+*   ![image](https://user-images.githubusercontent.com/52369168/120935543-edf3f080-c720-11eb-91fb-b9292041540c.png)
+
 *   <h3>Corona-Update-Dashboard</h3>
 *   ![image](https://user-images.githubusercontent.com/52369168/120935478-96ee1b80-c720-11eb-8b2f-a5475219c0c5.png)
 
