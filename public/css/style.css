@@ -1,16 +1,27 @@
 *{
     margin : 0 ;
     padding : 0% ;
+    padding-bottom: 0;
 } 
 body {
+    padding: 0%;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    margin: 0%;
    
   }
 
   main {
     flex: 1 0 auto;
+  }
+  .wave{
+      position: relative;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      /* margin-bottom: 0%;
+      margin-top: 30%; */
   }
 
   .custom-shape-divider-bottom-1622626252 {
@@ -22,13 +33,20 @@ body {
     line-height: 0;
     transform: rotate(180deg);
    
+    background-color: aqua;
+   
 }
 
+.wave-footer{
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
 .custom-shape-divider-bottom-1622626252 svg {
     position: relative;
     display: block;
+    bottom: 0;
     width: calc(121% + 1.3px);
-    height: 173px;
+    height: 170px;
     transform: rotateY(180deg);
     
 }
@@ -72,7 +90,10 @@ body {
         justify-content: center;
         justify-items: center;
     }
-    
+    .custom-shape-divider-bottom-1622626252 svg {
+        
+        height: 80px;   
+    }
   }
 
 .login-box{
