@@ -1,79 +1,36 @@
-<div class="corona-container">
-    
-     <div class="corona-update" style="color: #EC6353;">
-        <h5>
-           Confirmed 
-        </h5>
-       <h5 class="daily-update" id="demo" style ="opacity: 0.6;">
-            2,11,5
-        </h5 class="daily-update">
-
-        <h3 class="total counter "  id ="total-confirmed">
-            
-        </h3>
-
-        <img class= "trend-image" src="css/images/corona-positive.png" alt="postive-trend">
-    </div>
-    
-    <div class="corona-update" style="color: #28a744;">
-        <h5>
-           Recevered 
-        </h5>
-        
-        <h5 class="daily-update" id="daily-recovered" style ="opacity: 0.6;">
-            2,11,5
-        </h5 class="daily-update">
-        <h3 class="total counter" id ="total-recovered">
-            
-        </h3 >
-            <img class= "trend-image" src="css/images/corona-recovered.png" alt="postive-trend">
-    </div>
-    <div class="corona-update" style ="color: #85878A;">
-        <h5>
-           Deceased 
-        </h5>
-        
-        <h5 class="daily-update" id="daily-deceased" style ="opacity: 0.6;">
-            +2,11,5
-        </h5 class="daily-update">
-        <h3 class="total counter" id ="total-deceased">
-        
-        </h3 >
-        <img class ="trend-image" src="css/images/corona-deceased.png" alt="postive-trend">
-    </div>
-     <div class="heading">
-         <h5 style="color: #737c83; font-size:1.5rem; margin:0;">
-            Covid19-Update
-         </h5>
-         <p>Powered By <a href="https://www.covid19india.org/">covid19india.org</a></p>
-     </div>
-</div>
-<h2 style="color:#339af0;">Blogs</h2>
-
+<h3 style="color: tomato;">Edit Blog</h3>
 <div class="row">
-    {{#each stories}}
-    <div class="col s12 m6 l4 ">
-        <div class="card">
-            <div class="card-image">
-               {{{editIcon user ../user _id}}}
-            </div>
-            <div class="card-content cardbyme center-align">
-                <h5 class="head-text"><strong>{{ stripTags (truncate title 23)}}</strong></h5>
-                <p class="byme">{{stripTags (truncate body 80)}}</p>
-                <br>
-                <div class="chip">
-                    <img src="{{user.image}}" alt="">
-                    <a href="/stories/user/{{user._id}}">{{user.displayName}}</a>
-                </div>
-            </div>
-            <div class="card-action center-align">
-                <a href="/stories/{{_id}}" class="btn grey">Read More</a>
+    <form action="/stories/{{story._id}}" method="POST" class="col s12">
+        <input type="hidden" name="_method" value="PUT">
+        <div class="row">
+            <div class="input-field">
+                <input type="text" style="color:#0b1927; font-size:20px; font-weight: bold;" id="title" name="title" value="{{story.title}}">
+                <label   style="font-size: 20px; font-weight: bold;"    for="title">Title</label>
             </div>
         </div>
-    </div>
-    {{else}}
-    <p>No stories to display</p>
-    {{/each}}
+
+        <div class="row">
+            <div class="input-field">
+                <select id="status" name="status">
+                    {{#select story.status}}
+                    <option value="public" selected>Public</option>
+                    <option value="private">Private</option>
+                    {{/select}}
+                </select>
+                <label style="font-size: 18px; font-weight: bold;" for="status">Status</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field">
+                <h5>Tell Us Your Blog:</h5>
+                <textarea id="body" name="body">{{story.body}}</textarea>
+            </div>
+        </div>
+
+        <div class="row">
+            <input type="submit" value="Save" class="btn">
+            <a href="/dashboard" class="btn orange">Cancel</a>
+        </div>
+    </form>
 </div>
-
-
