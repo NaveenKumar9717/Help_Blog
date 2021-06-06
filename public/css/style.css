@@ -1,7 +1,124 @@
+*{
+    margin : 0 ;
+    padding : 0% ;
+} 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+   
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .custom-shape-divider-bottom-1622626252 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+   
+}
+
+.custom-shape-divider-bottom-1622626252 svg {
+    position: relative;
+    display: block;
+    width: calc(121% + 1.3px);
+    height: 173px;
+    transform: rotateY(180deg);
+    
+}
+
+.custom-shape-divider-bottom-1622626252 .shape-fill {
+    fill: #2460EB;
+}
+
+  .logo{
+   color: #0CC041; 
+    display: inline-block;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 2px;
+  }
+.vector1{
+    max-width: 450px;
+    max-height: 480px ;
+}
+
+@media only screen and (max-width: 900px) {
+    .vector1{
+        max-width: 350px;
+        max-height: 320px;
+    }
+    .login-box{
+        justify-self: center;
+        display: flex;
+      
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        width: 100%;
+        justify-content:left ;
+        z-index: 2;
+    }
+    .image{
+        width: 100%;
+        padding: 0%;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+  }
+
+.login-box{
+    justify-self: center;
+    display: flex;
+    margin: 10%;
+    flex-direction: row;
+    
+    max-width: 70%;
+    justify-content:left ;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.content{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:center;
+    padding: 10px;
+}
+.image{
+    width: 100%;
+    padding: 0%;
+  
+}
+/* 
+ triangle syle png  */
+
+
+
+/* .card{
+   
+    border: solid  blue ;
+    border-radius: 5% 5% 0 0 ;
+} */
+
+
 
 p {
     margin : 10px 0 !important ;
 }
+
 .login-container{
     width: 400px;
     margin-top: 50px ;
@@ -39,13 +156,48 @@ p {
     padding: 0px ;
     margin-top: 10%;
     width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+       
+        
 }
+
+
+/*For triangle style div */
+.custom-shape-divider-top-1622924488 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1622924488 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 21px;
+}
+
+.custom-shape-divider-top-1622924488 .shape-fill {
+    fill: #007DFE;
+}
+
+
+
+
+
 
 @media only screen and (min-width: 800px) {
     .cardbyme {
-        
       height: 220px;
       
+    }
+    .corona-container{
+        background-size: contain;
+        background-image: url('./fightagainst.jpg');
+        background-repeat: no-repeat;
+        background-position-x: right;
     }
   }
   @media only screen and (min-width: 600px) and (max-width :780px) {
@@ -85,6 +237,17 @@ p {
     align-self: flex-end;
     justify-self: flex-end;
     margin: 0%;
-    
 
+}
+
+footer{
+    
+    left: 0;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    bottom: 0;
+    width: 100%;
+   
+    color: white;
+    text-align: center;
 }
