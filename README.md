@@ -43,7 +43,8 @@ Website contains Corona Update feature  giving latest inforamtion of daily infor
 *  <h3>Welcome To Dashboard</h3>
 *   ![image](https://user-images.githubusercontent.com/52369168/120348283-ac2b0a80-c31a-11eb-8d37-7dbf4102dd69.png)
 *   <h3>Corona-Update-Dashboard</h3>
-*   ![image](https://user-images.githubusercontent.com/52369168/120349810-0c6e7c00-c31c-11eb-81fe-3e6bb3e728af.png)
+*   ![image](https://user-images.githubusercontent.com/52369168/120935478-96ee1b80-c720-11eb-8b2f-a5475219c0c5.png)
+
 *   <h3>Blogs section</h3>
 *   ![image](https://user-images.githubusercontent.com/52369168/120350291-7b4bd500-c31c-11eb-9d9c-eceb57844f86.png)
 
