@@ -15,6 +15,10 @@ body {
   main {
     flex: 1 0 auto;
   }
+.brand-logo{
+ font-weight:200;
+
+}
   .wave{
       position: relative;
       bottom: 0;
