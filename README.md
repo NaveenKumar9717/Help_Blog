@@ -30,6 +30,7 @@ Website contains Corona Update feature  giving latest inforamtion of daily infor
 * Hands to code 🤓
 
 ## ✨ Features
+
 - [x] Corona Update India
 - [x] Secure GOOGLE OATH2.0 LOGIN
 - [x] Covid-19 Latest News
@@ -42,18 +43,25 @@ Website contains Corona Update feature  giving latest inforamtion of daily infor
 
 * <h3>Login With Google</h3> 
 
-*  ![image](https://user-images.githubusercontent.com/52369168/120981075-ea9a4c80-c794-11eb-9ca9-364ecd4c2002.png)
+<img width="764" alt="Login" src="https://user-images.githubusercontent.com/52369168/121517566-28a1a580-ca0d-11eb-96a4-fa78c595519c.png">
+
 
 *  <h3>Welcome To Dashboard</h3>
-*   ![image](https://user-images.githubusercontent.com/52369168/120935543-edf3f080-c720-11eb-91fb-b9292041540c.png)
+<img width="749" alt="DASHBOARD" src="https://user-images.githubusercontent.com/52369168/121515144-77017500-ca0a-11eb-894c-34aa39996d61.png">
 
 *   <h3>Corona-Update-Dashboard</h3>
  
  <img width="715" alt="CORONA-UPDATE" src="https://user-images.githubusercontent.com/52369168/121514731-f93d6980-ca09-11eb-8bbe-cded96b06e84.png">
 
 
-*   <h3>Blogs section</h3>
-*   ![image](https://user-images.githubusercontent.com/52369168/120981370-3d740400-c795-11eb-8906-b6ea68a9b7d5.png)
+*   <h3>Edit Blog</h3>
+ <img width="713" alt="EDIT-PAGE" src="https://user-images.githubusercontent.com/52369168/121515347-b92ab680-ca0a-11eb-9fdd-89a5ba1eda7e.png">
+
+*  <h3>Add Block</h3>
+<img width="727" alt="ADD_BLOG" src="https://user-images.githubusercontent.com/52369168/121517195-b4670200-ca0c-11eb-9593-93494cad03a5.png">
+
+* <h3> Public Blogs Section </h3>
+<img width="725" alt="PUBLIC-BLOGS" src="https://user-images.githubusercontent.com/52369168/121517372-ebd5ae80-ca0c-11eb-9063-6337879930f6.png">
 
 
 
