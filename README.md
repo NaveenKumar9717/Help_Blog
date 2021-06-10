@@ -35,6 +35,7 @@ Website contains Corona Update feature  giving latest inforamtion of daily infor
 - [x] Covid-19 Latest News
 - [x] Blogs to help People
 - [x] Edit blog fucntion
+<img width="715" alt="CORONA-UPDATE" src="https://user-images.githubusercontent.com/52369168/121514731-f93d6980-ca09-11eb-8bbe-cded96b06e84.png">
 
 
 ## 📸 ScreenShots
